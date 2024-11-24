@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><i class="fas fa-home"></i> Home</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i> Explore</li>
+                    <li><i class="fas fa-bell"></i> Notifications</li>
+                    <li><i class="fas fa-envelope"></i> Messages</li>
+                    <li><i class="fa-solid fa-users"></i> Communities</li>
+                    <li><i class="fas fa-user"></i> Profile</li>
+                    <li> <i class="fa-brands fa-x-twitter"></i> Premium</li>
+                    <li><i class="fas fa-user"></i> Profile</li>
+                    <li><i class="fas fa-ellipsis-h"></i> More</li>
+                </ul>
+            </nav>
+            <button class="tweet-btn">Post</button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>For you </h1>
+            </header>
+            <!-- Tweet Input Box -->
+            <div class="tweet-box">
+                <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiXMYvWInPwPYK-g1Rc1e_DIDT2pmRUVpfcw&s"alt="Profile Picture"width="50px"height="50px">
+                <textarea placeholder="What is happening?!" rows="3"></textarea>
+            </div>
+            <button class="tweet-btn"> Show 175 Post</button>
+            
+            <!-- Feed -->
+            <div class="feed">
+                <!-- Tweet 1 -->
+                <div class="tweet">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzSKEpzue2oLV_p-aGH2QGzqOcNJzNUowUAA&s" alt="User Image"height="50px"width="50px">
+                    <div class="tweet-content">
+                        <h3>Elon Musk  <span>@elonmusk. Nov20</span></h3>
+                        <img class="tweet-image" src="https://pbs.twimg.com/media/GctBah4XsAAf_m3?format=jpg&name=small" alt="Tweet Image"height="20px"width="20px">
+                        <div class="tweet-actions">
+                            <i class="far fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tweet 2 -->
+                <div class="tweet">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqXzqnKb9nvDI17oQGSfFlH3SL2Jv3uNPYYw&s" alt="User Image" height="50px"width="50px">
+                    <div class="tweet-content">
+                        <h3>Exit Lag <span>@Exit Lag</span></h3>
+                        <p>Thousands of games trustExit Lag. Now it's your turn. Try it free today</p>
+                        <img class="tweet-image" src="https://pbs.twimg.com/media/GaHnrDnXgAAivle?format=png&name=small" alt="Tweet Image"height="20px"width="20px">
+                        <div class="tweet-actions">
+                            <i class="far fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
