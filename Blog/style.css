@@ -1,0 +1,82 @@
+.parent{
+    border:2px solid rgb(241, 214, 165);
+     display:flex;
+     justify-content: start; 
+     text-align: center;
+     background-color: rgb(241, 214, 165);
+ }
+ *{
+    margin: 0;
+ }
+ .child{
+    height:100px;
+    width: 200px;
+    justify-content: left;
+    text-align: center;
+    font-family: "Poppins", serif;
+    background-color: rgb(241, 214, 165);
+    
+ }
+ .hello{
+    height:100px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+ } .shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+ }
+ 
+ .box{
+    border: 2px solid white;
+    height: 400px;
+    width: 30%;
+    background-color: blanchedalmond;
+ }.father{
+    display: flex;
+     justify-content : center;
+     background-color:white;
+  }
+  .son{
+     border: 2px solid white;
+     height: 300px;
+     width: 500px;
+     background-color: white;
+  
+  }.student{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+ }
+ .num{
+    border: 2px solid white;
+    height: 30px;
+    width: 30px;
+    background-color: blanchedalmond;
+ }
+ .red{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    text-align: center;
+ }
+ .blue{
+    border: 2px solid white;
+    height: 300px;
+    width: 5000px;
+    background-color: rgb(196, 193, 189)
+ }
+ .black{
+    color:white;
+    width: 500px;
+    height:500px;
+    justify-content: center;
+    .bottom{
+       bottom: 1.5px solid transparent;
+       background-color: black;
+       background-size: cover;height:50px;width:100px;
+    }
+    }
+ 
+ 
