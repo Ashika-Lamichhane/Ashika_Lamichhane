@@ -1,82 +1,218 @@
-.parent{
-    border:2px solid rgb(241, 214, 165);
-     display:flex;
-     justify-content: start; 
-     text-align: center;
-     background-color: rgb(241, 214, 165);
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
  }
- *{
-    margin: 0;
+ 
+ body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: white;
+   color: #333;
  }
- .child{
-    height:100px;
-    width: 200px;
-    justify-content: left;
-    text-align: center;
-    font-family: "Poppins", serif;
-    background-color: rgb(241, 214, 165);
+ 
+ .navbar {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: rgb(246, 226, 187);
+   padding: 10px 20px;
+   box-shadow: 0 2px 5px rgba(244, 231, 199, 0.1);
+   height: 100px;
+ }
+ 
+ .navbar h1 {
+   font-size: 30px;
+   font-weight: bold;
+ }
+ .navbar h1 p{
+   font-size: 20px;
+   font-weight: 400;
+ }
+ 
+ .navbar ul {
+   display: flex;
+   list-style: none;
+ }
+ 
+ .navbar ul li {
+   margin: 0 15px;
+ }
+ 
+ .navbar ul li a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+ }
+ .navbar ul li a:hover{
+   color: rgb(208, 140, 50);
+ }
+ 
+ .social-icons a {
+   margin: 0 5px;
+   text-decoration: none;
+   color: #333;
+ }
+ 
+ .social-icons a:hover {
+   color: #007BFF;
+ }
+ 
+ .blog-grid {
+   display: flex;
+   justify-content: center;
+   margin: 30px 20px;
+   gap: 20px;
+ }
+ 
+ .blog-post {
+   background: #c8c6c6;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: wheat;
+   width: 400px;
+   text-align: center;
+ }
+ 
+ .blog-post img {
+   width: 500%;
+   height: 300px;
+   object-fit: cover;
+   /* background-color: #fff; */
+ }
+ 
+ .post-content {
+   padding: 15px;
+   background-color:whitesmoke;
+ }
+ 
+ .post-content h3 {
+   font-size: 18px;
+   margin-bottom: 10px;
     
  }
- .hello{
-    height:100px;
-    width: 150px;
-    justify-content: center;
-    text-align: center;
- } .shop-section{
-    display: flex;
-    justify-content: space-evenly;
-    background-color:white;
+ 
+ .post-content p {
+   color: #5d5a5a;
+   font-size: 14px;
+   
+ }
+ .blog-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 20px;
+   padding: 30px;
  }
  
- .box{
-    border: 2px solid white;
-    height: 400px;
-    width: 30%;
-    background-color: blanchedalmond;
- }.father{
-    display: flex;
-     justify-content : center;
-     background-color:white;
-  }
-  .son{
-     border: 2px solid white;
-     height: 300px;
-     width: 500px;
-     background-color: white;
-  
-  }.student{
-    display: flex;
-    justify-content: center;
-    background-color:white;
+ .blog-card {
+   background: white;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
  }
- .num{
-    border: 2px solid white;
-    height: 30px;
-    width: 30px;
-    background-color: blanchedalmond;
- }
- .red{
-    display: flex;
-    justify-content: center;
-    background-color:white;
-    text-align: center;
- }
- .blue{
-    border: 2px solid white;
-    height: 300px;
-    width: 5000px;
-    background-color: rgb(196, 193, 189)
- }
- .black{
-    color:white;
-    width: 500px;
-    height:500px;
-    justify-content: center;
-    .bottom{
-       bottom: 1.5px solid transparent;
-       background-color: black;
-       background-size: cover;height:50px;width:100px;
-    }
-    }
  
+ .blog-card img {
+   width: 100%;
+   height: 180px;
+   object-fit: cover;
+ }
+ 
+ .card-content {
+   padding: 15px;
+   text-align: center;
+ }
+ 
+ .card-content h3 {
+   font-size: 18px;
+   margin-bottom: 10px;
+ }
+ 
+ .card-content span {
+   display: block;
+   font-size: 14px;
+   color: #555;
+   margin-bottom: 5px;
+ }
+ 
+ .card-content p {
+   font-size: 13px;
+   color: #777;
+ }
+ footer {
+   background-color:rgb(206, 199, 199);
+   text-align: center;
+   padding: 30px 20px;
+   font-family: Arial, sans-serif;
+   border-top: 1px solid #ddd;
+ }
+ 
+ .newsletter {
+   margin-bottom: 20px;
+ }
+ 
+ .newsletter h2 {
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+ 
+ .newsletter p {
+   font-size: 14px;
+   color: #666;
+   margin-bottom: 15px;
+ }
+ 
+ .subscribe-form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+ }
+ 
+ .subscribe-form input {
+   padding: 10px;
+   width: 300px;
+   border: 1px solid #ddd;
+   border-radius: 3px;
+   font-size: 14px;
+
+ }
+ 
+ .subscribe-form button {
+   padding: 10px 20px;
+   background-color: #000;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+   font-size: 14px;
+   cursor: pointer;
+ }
+ 
+ .subscribe-form button:hover {
+   background-color: #333;
+ }
+ 
+ .footer-links ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin-bottom: 15px;
+ }
+ 
+ .footer-links ul li a {
+   text-decoration: none;
+   color: #333;
+   font-size: 14px;
+ }
+ 
+ .footer-links ul li a:hover {
+   color:orange;
+   
+ }
+ 
+ .copyright {
+   font-size: 12px;
+   color: #9b9797;
+ }
  
