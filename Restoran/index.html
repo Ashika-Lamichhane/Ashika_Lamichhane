@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restoran Clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    
 </head>
 <body>
 
     <header class="header">
         <div class="container">
           <div class="logo">
-            <img src="./images.jpg" alt="Restoran Logo">
+            <img src="./download (1).jpg" alt="">
             <h1>Restoran</h1>
           </div>
           <nav class="navbar">
@@ -19,7 +21,7 @@
             <a href="#about">About</a>
             <a href="#service">Service</a>
             <a href="#menu">Menu</a>
-            <a href="#pages">PAGES</a>
+            <a href="#pages">Pages</a>
             <a href="#contact">Contact</a>
             <a href="#book" class="btn">Book a Table</a>
           </nav>
@@ -38,11 +40,109 @@
             <a href="#book" class="btn">Book a Table</a>
           </div>
           <div class="hero-image">
-            <img src="" alt="Grill Food">
+            <img src="./hero.png" alt="Grill Food">
           </div>
         </div>
       </section>
-      <footer></footer>
+      <div class="box">
+        <div class="smallbox">
+          <div class="minibox"><i class="fa-solid fa-user"></i></div>
+          <h2>Master Chefs</h2>
+          <p>Diam elitr kasd sed at elitr <br>sed ipsum justo dolor sed clita amet <br> diam</p>
+        </div>
+        <div class="smallbox"><div class="minibox"><i class="fa-solid fa-spoon"></i></div>
+          <h2>Quality Food</h2>
+          <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed clita amet <br>diam</p>
+        </div>
+        <div class="smallbox"><div class="minibox"><i class="fa-solid fa-cart-shopping"></i></div>
+          <h2>Online Order</h2>
+          <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed clita amet <br>diam</p>
+      </div>
+        <div class="smallbox"> <div class="minibox"><i class="fa-solid fa-headphones"></i></div>
+          <h2>24/7 Service</h2>
+          <p>Diam elitr kasd sed at elitr <br>sed ipsum justo dolor sed clita amet <br> diam</p>
+        </div>
+      </div>
+     
+    <!-- booking page  -->
+ <!-- Main Container -->
+ <div class="container">
+  <!-- Video Section -->
+  <div class="video-section">
+    <video src="./about-4.jpg" alt="Restaurant Scene" class="video-thumbnail">
+    <a href="#" class="play-button">
+      <i class="fa-solid fa-play"></i>
+    </a>
+  </div>
 
+  <!-- Booking Form Section -->
+  <div class="booking-form">
+    <h2>Reservation</h2>
+    <h3>Book A Table Online</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="datetime-local" required>
+      <select>
+        <option>People 1</option>
+        <option>People 2</option>
+        <option>People 3</option>
+        <option>People 4</option>
+      </select>
+      <textarea placeholder="Special Request" rows="3"></textarea>
+      <button type="submit">BOOK NOW</button>
+    </form>
+  </div>
+</div>
+
+
+    <!-- footer page  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-section company">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h3>Contact</h3>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</li>
+            <li><i class="fa-solid fa-phone"></i> +012 345 67890</li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@example.com">info@example.com</a></li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section opening">
+          <h3>Opening</h3>
+          <ul>
+            <li><i class="fa-solid fa-clock"></i> Monday - Saturday: 09AM - 09PM</li>
+            <li><i class="fa-solid fa-clock"></i> Sunday: 10AM - 08PM</li>
+          </ul>
+        </div>
+        <div class="footer-section newsletter">
+          <h3>Newsletter</h3>
+          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <form>
+            <input type="email" placeholder="Your email" required>
+            <button type="submit">Signup</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© Your Site Name, All Right Reserved. Designed by HTML Codex. Distributed by ThemeWagon</p>
+      </div>
+    </footer>
 </body>
 </html>

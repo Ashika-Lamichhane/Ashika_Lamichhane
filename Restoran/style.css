@@ -6,14 +6,15 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #111;
+    background-color: #f4ecec;
     color: #fff;
     line-height: 1.6;
+    margin: 60px;
   }
   
   /* Header */
   .header {
-    background-color: #222;
+    background-color: #0c0b0b;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -21,6 +22,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    
   }
   
   .container {
@@ -30,17 +32,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .logo {
     display: flex;
     align-items: center;
+    
   }
   
   .logo img {
     width: 80px;
-    height: 80px;
+    height: 100px;
     margin-right: 10px;
+    
+    
   }
   
   .logo h1 {
@@ -74,8 +80,12 @@
   
   /* Hero Section */
   .hero {
-    background-color: #222;
+    background-image: url(./background.jpg);
+     background-blend-mode: darken; 
+    /* background-color: hue; */
+    /* filter: grayscale(50%); */
     padding: 50px 20px;
+    
   }
   
   .hero-container {
@@ -128,3 +138,237 @@
     to{
         transform:rotate(360deg);
     }}
+    
+  /* box is started  */
+  .box{
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    
+
+  }
+  .box .smallbox{
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    background-color:white;
+    
+  }
+  .box .smallbox .minibox{
+    justify-content: left;
+    text-align: left;
+    
+  }
+  .box .smallbox h2{
+    color: black;
+    text-align: left;
+    margin: 20px;
+  }
+  .box .smallbox p{
+    color: gray;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  }
+  .box .smallbox .minibox i{
+    height: 10px;
+    width: 10px;
+    margin: 20px ;
+    color: orange;
+  }
+  .box :hover{
+    background-color: orange;}
+    /* for img and contend  */
+
+  
+  /* booking page  */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+  }
+  
+  /* Video Section */
+  .video-section {
+    position: relative;
+    width: 50%;
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: #fff;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .play-button:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  
+  /* Booking Form Section */
+  .booking-form {
+    background-color: #222;
+    color: #fff;
+    padding: 30px;
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .booking-form h2 {
+    color: orange;
+    margin-bottom: 10px;
+  }
+  
+  .booking-form h3 {
+    margin-bottom: 20px;
+  }
+  
+  .booking-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .booking-form form input,
+  .booking-form form select,
+  .booking-form form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .booking-form form button {
+    padding: 12px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .booking-form form button:hover {
+    background-color: #ff8800;
+  }
+  /* footer  */
+  .footer {
+    background-color: #231c35;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 400px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: orange;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section ul li i {
+    color: orange;
+    font-size: 14px;
+  }
+  
+  .footer-section form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-section form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .footer-section form button {
+    padding: 10px 15px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-section form button:hover {
+    background-color: #ff8800;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #444;
+  }
+  
+  .footer-bottom a {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section ul li a i,
+  .footer-section ul li i {
+    font-size: 16px;
+  }
