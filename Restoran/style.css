@@ -10,10 +10,12 @@
     color: #fff;
     line-height: 1.6;
     margin: 60px;
+    margin-top: 0%;
   }
   
   /* Header */
   .header {
+    height: 150px;
     background-color: #0c0b0b;
     padding: 20px;
     display: flex;
@@ -26,6 +28,7 @@
   }
   
   .container {
+    
     width: 90%;
     max-width: 1200px;
     margin: auto;
@@ -43,7 +46,7 @@
   
   .logo img {
     width: 80px;
-    height: 100px;
+    height: 80px;
     margin-right: 10px;
     
     
@@ -201,12 +204,13 @@
     width: 50%;
   }
   
-  .video-thumbnail {
-    width: 100%;
+  /* .video-thumbnail {
+    width: 200%;
     border-radius: 10px;
-  }
+    height: 600px;
+  } */
   
-  .play-button {
+  /* .play-button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -226,7 +230,7 @@
   
   .play-button:hover {
     transform: translate(-50%, -50%) scale(1.1);
-  }
+  } */
   
   /* Booking Form Section */
   .booking-form {
